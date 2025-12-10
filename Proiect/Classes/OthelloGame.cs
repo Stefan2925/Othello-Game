@@ -29,15 +29,15 @@ namespace Proiect
         private Tabla tabla;
         private  culoareJucator culoareCurenta;
 
-        public OthelloGame(Tabla tabla, culoareJucator currentPlayer,Panel boardPanel)
+        public OthelloGame( culoareJucator currentPlayer,Panel Panou)
         {
 
-            this.tabla = tabla;
+            this.tabla = new Tabla ();
             this.culoareCurenta = currentPlayer;
-            this.Panou = boardPanel;
+            this.Panou = Panou;
 
-            boardPanel.Paint += BoardPanel_Paint;
-            boardPanel.MouseClick += Actiune_Click;
+            Panou.Paint += BoardPanel_Paint;
+            Panou.MouseClick += Actiune_Click;
 
         }
 
@@ -46,8 +46,12 @@ namespace Proiect
         public bool MutareValida(int x, int y)
         {
             if (!CuprindeTabla(x, y) || tabla.Grid[x, y] != null)
-                return false;
+            {
+                MessageBox.Show("No valid moves!", "Othello", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+
+                return false;
+            }
 
             foreach (var (dx, dy) in directions)
             {
@@ -78,18 +82,52 @@ namespace Proiect
                    y >= 0 && y < tabla.Grid.GetLength(1);
 
         }
+
+        public bool VerificaEndJoc()
+        {
+            
+            
+            List < (int, int)> toateMiscarileCurente= ToateMutarile();
+            if(toateMiscarileCurente.Count==0)
+            {
+                SchimbaCuloareCurenta();
+                toateMiscarileCurente = ToateMutarile();
+                if (toateMiscarileCurente.Count == 0)
+                {
+                    return true;
+                }
+                else { return false; }
+               
+            }
+            return false;
+            
+            
+
+        }
+
         public void PunePiesa(int x, int y)
         {
             if (!MutareValida(x, y)) return;
-            if(culoareCurenta == culoareJucator.White)
+
+           
+
+            if (culoareCurenta == culoareJucator.White)
                 tabla.Grid[x, y] = new PiesaAlba();
             else tabla.Grid[x, y] = new PiesaNeagra();
 
             foreach (var (dx, dy) in directions)
-                    FlipDirection(x, y, dx, dy);
-
+                InverseazaDirectie(x, y, dx, dy);
+           
             SchimbaCuloareCurenta();
+
+
+            //bool end = VerificaEndJoc();
+            //if (end == true)
+            //    Application.Exit();
+            
+
         }
+
 
         private void SchimbaCuloareCurenta()
         {
@@ -103,9 +141,9 @@ namespace Proiect
                 culoareCurenta = culoareJucator.White;
             }
         }
-        public List<(int x, int y)> GetValidMoves()
+        public List<(int x, int y)>ToateMutarile()
         {
-            var moves = new List<(int, int)>();
+           List< (int, int )> moves = new List<(int, int)>();
 
             for (int x = 0; x < 8; x++)
             {
@@ -119,7 +157,7 @@ namespace Proiect
             return moves;
         }
 
-        private void FlipDirection(int x, int y, int dx, int dy)
+        private void InverseazaDirectie(int x, int y, int dx, int dy)
         {
             int i = x + dx;
             int j = y + dy;
@@ -176,8 +214,8 @@ namespace Proiect
                 
                 if (MutareValida(r, c))
                     PunePiesa(r, c);
+                Panou.Invalidate();
 
-                Panou.Invalidate(); 
             }
         }
 
@@ -187,6 +225,7 @@ namespace Proiect
         private void BoardPanel_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
+           
   
             int usableSize = Panou.Width - 2 * MARGINE;
             int tileSize = usableSize / 8;
@@ -195,7 +234,7 @@ namespace Proiect
             {
                 for (int c = 0; c < 8; c++)
                 {
-                    var piece = tabla.Grid[r, c];
+                    Piesa piece = tabla.Grid[r, c];
                     int baseX = MARGINE;
                     int baseY = MARGINE;
 

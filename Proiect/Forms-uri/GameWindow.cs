@@ -25,7 +25,7 @@ namespace Proiect
             }
         }
         private OthelloGame game;
-        private Tabla tabla;
+      
         public GameWindow()
         {
             InitializeComponent();
@@ -35,46 +35,25 @@ namespace Proiect
                    ControlStyles.UserPaint |
                    ControlStyles.DoubleBuffer, true);
             this.UpdateStyles();
-            tabla = new Tabla();
-            game = new OthelloGame(tabla, culoareJucator.White, Panou);
+           
+            game = new OthelloGame( culoareJucator.Black, Panou);
 
            
             Panou.Invalidate();
 
         }
+      
         private void Game_Resize(object sender, EventArgs e)
         {
-            int spacing = 20;
-            int totalWidth = button1.Width + +spacing * 2;
+            button1.Left = this.ClientSize.Width - button1.Width ; 
+            button1.Top = (this.ClientSize.Height - button1.Height) / 2;
 
+            int maxSize = (int)(Math.Min(this.ClientSize.Width, this.ClientSize.Height) * 0.8);
 
-            int startX = (this.ClientSize.Width - totalWidth) / 2;
-            int startY = (this.ClientSize.Height - button1.Height) / 2;
-
-
-            button1.Left = startX + 600;
-
-
-            button1.Top = startY;
-
-
-
-
-
-            int maxWidth = (int)(this.ClientSize.Width * 0.8);
-            int maxHeight = (int)(this.ClientSize.Height * 0.8);
-
-            int boardSize = Math.Min(maxWidth, maxHeight);
-
-
-            Panou.Width = boardSize;
-            Panou.Height = boardSize;
-
-            Panou.Left = (this.ClientSize.Width - boardSize) / 2;
-            Panou.Top = (this.ClientSize.Height - boardSize) / 2;
-
-
-
+            Panou.Width = maxSize;
+            Panou.Height = maxSize;
+            Panou.Left = (this.ClientSize.Width - maxSize) / 2;
+            Panou.Top = (this.ClientSize.Height - maxSize) / 2;
         }
 
 

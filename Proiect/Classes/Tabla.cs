@@ -10,7 +10,7 @@ namespace Proiect
     {
 
       
-            public Piesa[,] Grid { get; private set; }
+        public Piesa[,] Grid { get; private set; }
 
             public Tabla()
             {

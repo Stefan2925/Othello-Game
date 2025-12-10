@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProiectPOO\\Proiect\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\forms-uri\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\forms-uri\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|c:\\proiectpoo\\proiect\\proiect\\forms-uri\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\forms-uri\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|c:\\proiectpoo\\proiect\\proiect\\classes\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\classes\\tabla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|c:\\proiectpoo\\proiect\\proiect\\classes\\piesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\classes\\piesa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\classes\\othellogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\classes\\othellogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\forms-uri\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\forms-uri\\gamewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\forms-uri\\gamewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\forms-uri\\gamewindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|C:\\ProiectPOO\\Proiect\\proiect\\forms-uri\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4CA64EF-ADB2-4F7B-B7AE-1E22197AC030}|Proiect\\Proiect.csproj|solutionrelative:proiect\\forms-uri\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tabla.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Tabla.cs",
+              "RelativeDocumentMoniker": "Proiect\\Classes\\Tabla.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Tabla.cs",
+              "RelativeToolTip": "Proiect\\Classes\\Tabla.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:25:15.414Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Proiect\\Properties\\Resources.resx",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Properties\\Resources.resx",
+              "RelativeToolTip": "Proiect\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-12-08T13:15:22.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Piesa.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Piesa.cs",
+              "RelativeDocumentMoniker": "Proiect\\Classes\\Piesa.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Piesa.cs",
+              "RelativeToolTip": "Proiect\\Classes\\Piesa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T13:07:58.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Program.cs",
+              "RelativeDocumentMoniker": "Proiect\\Classes\\Program.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\Program.cs",
+              "RelativeToolTip": "Proiect\\Classes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:52:53.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OthelloGame.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\OthelloGame.cs",
+              "RelativeDocumentMoniker": "Proiect\\Classes\\OthelloGame.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Classes\\OthelloGame.cs",
+              "RelativeToolTip": "Proiect\\Classes\\OthelloGame.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAwwLAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-03T05:24:48.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameWindow.cs [Design]",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.cs",
+              "RelativeDocumentMoniker": "Proiect\\Forms-uri\\GameWindow.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.cs [Design]",
+              "RelativeToolTip": "Proiect\\Forms-uri\\GameWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:17:37.141Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameWindow.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.cs",
+              "RelativeDocumentMoniker": "Proiect\\Forms-uri\\GameWindow.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.cs",
+              "RelativeToolTip": "Proiect\\Forms-uri\\GameWindow.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:56:58.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameWindow.Designer.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.Designer.cs",
+              "RelativeDocumentMoniker": "Proiect\\Forms-uri\\GameWindow.Designer.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\GameWindow.Designer.cs",
+              "RelativeToolTip": "Proiect\\Forms-uri\\GameWindow.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAlwB8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:56:44.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Menu.Designer.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\Menu.Designer.cs",
+              "RelativeDocumentMoniker": "Proiect\\Forms-uri\\Menu.Designer.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\Menu.Designer.cs",
+              "RelativeToolTip": "Proiect\\Forms-uri\\Menu.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:57:58.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\Menu.cs",
+              "RelativeDocumentMoniker": "Proiect\\Forms-uri\\Menu.cs",
+              "ToolTip": "C:\\ProiectPOO\\Proiect\\Proiect\\Forms-uri\\Menu.cs",
+              "RelativeToolTip": "Proiect\\Forms-uri\\Menu.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAADwv1oAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:58:16.591Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
